@@ -1,0 +1,86 @@
+
+
+@import './global.css';
+/* Para as variaveis usadas, favor se referir ao CSS acima.  */
+
+
+div.container_highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor01);
+    padding-bottom: 25px;
+}
+
+div.highlight_1 {
+    font-family: var(--title-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: var(--cor-t03);
+}   
+
+div.container_know {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn_img {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+
+}
+
+.learn_text {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+div.container_useful {
+    display: flex;
+    flex-direction: column;
+}
+
+.photograph {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.photograph_text {
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+div.button_receive {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.receive_button {
+    font-family: var(--text-font);
+    font-size: 14px;
+    border: 1px solid var(--cor02);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    width: 330px;
+    height: 50px;
+    background: none;
+    color: var(--cor02);
+    cursor: pointer;
+
+}

@@ -1,0 +1,162 @@
+
+
+@import './global.css';
+/* Para as variaveis usadas, favor se referir ao HTML acima. */
+
+header {
+    background-color: var(--cor-t04);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+
+
+}
+
+.header_img {
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.header_nav {
+    text-align: center;
+    line-height: 30px;
+}
+
+.header_link {
+    display: inline;
+    width: 100%;
+    list-style-type: none;
+    padding: 1rem;
+    padding-bottom: 15px;
+    
+    font-family: var(--text-font);
+    font-size: 17px;
+    line-height: 18px;
+}
+
+nav {
+    border-bottom: 1px solid var(--cor-t02);
+    padding-bottom: 15px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--cor00);
+}
+
+.presentation > p {
+    text-align: center;
+}
+
+.presentation {
+    align-items: center;
+    color: var(--cor00);
+    padding-top: 15px;
+}
+
+.pres_intro {
+    font-family: var(--title-text);
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.presentation_1 {
+    font-family: var(--text-font);
+    font-size: 20px;
+    padding: 15px;
+    line-height: 30px;
+    font-style: normal;
+
+}
+
+.presentation_1:first-letter {
+    text-transform: capitalize;
+}
+
+.button_div {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.button_plan {
+    font-family: var(--text-font);
+    font-size: 14px;
+    border: 1px solid var(--cor00);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    width: 330px;
+    height: 50px;
+    background: none;
+    color: var(--cor00);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 375px){
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+    nav {
+        border-bottom: 1px solid var(--cor-t02);
+        padding-top: 12px;
+        padding-bottom: 49px; 
+        width: 100%;
+    }
+
+    .presentation_1 {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+        header {
+            background-image: url("../assets/img/bg-intro.jpg"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .header_img {
+            padding-left: 45px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            padding-right: 774px;
+        }
+
+        nav { 
+            border-bottom: none;
+        }
+        
+        .header_link {
+            position: relative;
+            left: 145px;
+            bottom: 57px;
+
+        }
+
+        .header_link > a:hover {
+            padding: 5px;
+            background-color: var(--cor-t01);
+            border-radius: 5px;
+            
+        }
+
+        .presentation {
+            position: relative;
+            bottom: 27px;
+
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+}

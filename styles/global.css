@@ -1,0 +1,39 @@
+/* Configurações globais usadas ao longo de todos os CSS.  */
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+:root {
+    /* Cores do site */
+    --cor00: #FFF;
+    --cor01: #DFE3F5;
+    --cor02: #B72E2E;
+    --cor03: #4F4C4C;
+    --cor04: #F7F4F4;
+    --cor05: #D9D9D9;
+
+    /* Cor dos textos */
+    --cor-t00: #0084FF;
+    --cor-t01: #666;
+    --cor-t02: #103D4A;
+    --cor-t03: #333;
+    --cor-t04: #00161C;
+
+    /* Cor dos planos */
+    --cor-p00: #56CCF2;
+    --cor-p01: #B04CD9;
+    --cor-p02: #E33B3B;
+
+    --text-font: 'Open Sans', sans-serif; 
+    --title-text: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
