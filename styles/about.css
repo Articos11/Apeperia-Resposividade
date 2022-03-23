@@ -1,0 +1,93 @@
+@import './global.css';
+/* Para as variaveis usadas, favor se referir ao CSS acima.  */
+
+.about {
+    padding: 15px;
+}
+
+.title_about { 
+    text-align: center;
+    font-family: var(--title-text);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    color: var(--cor03);
+}
+
+
+.about_upper_text {
+    font-family: var(--text-font);
+    font-size: 16px;
+    padding-bottom: 13px;
+    color: var(--cor03);
+}
+
+.about_middle_text {
+    font-family: var(--text-font);
+    font-size: 16px;
+    padding-bottom: 13px;
+    color: var(--cor03);
+}
+
+.about_lower_text {
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 700;
+    font-style: bold;
+    padding-bottom: 13px;
+    color: var(--cor03);
+}
+
+.about_imgs {
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.about_bottom_text {
+    align-items: center;
+    justify-content: center;
+    font-family: var(--text-font);
+    font-size: 16px;
+}
+
+.hidden_img {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .about_container{
+        display: flex;
+        padding-top: 30px;
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+        padding-bottom: 30px;
+    }
+
+    .title_about {
+        text-align: left;
+    }
+
+    .about_lower_text {
+        border-bottom: 1px solid var(--cor03);
+    }
+
+    .about {
+        margin-left: auto;
+        margin-right: 3rem;
+    }
+
+    .hidden_img {
+        display: block; 
+    }
+
+}

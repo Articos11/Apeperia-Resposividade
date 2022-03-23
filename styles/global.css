@@ -20,6 +20,7 @@
     --cor-t02: #103D4A;
     --cor-t03: #333;
     --cor-t04: #00161C;
+    --cor-t05: #000000;
 
     /* Cor dos planos */
     --cor-p00: #56CCF2;
@@ -35,5 +36,6 @@
     padding: 0;
 }
 
-
-
+ol, ul {
+    list-style: none;
+}
