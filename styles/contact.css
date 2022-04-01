@@ -1,0 +1,153 @@
+@import './global.css'; 
+/* Para todas as variáveis, favor consultar o CSS acima. */
+
+
+.contact_upper {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    font-family: var(--title-text);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor03);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact_text {
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-t05);
+    padding-bottom: 20px;
+}
+
+.contact_button {
+    height: 50px;
+    width: 330px;
+    background: none;
+    border: 1px solid var(--cor03);
+    border-radius: 5px;
+    font-family: var(--text-font);
+}
+
+.institutional {
+    font-family: var(--title-text);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor03);
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact_lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_about {
+    font-family: var(--text-font);
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 8px;
+    color: var(--cor03);
+    padding-bottom: 20px;
+    
+}
+
+.contact_adress {
+    font-family: var(--text-font);
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+    color: var(--cor03);
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.contact_info {
+    font-family: var(--text-font);
+    font-size: 16px;
+    text-align: center;
+    color: var(--cor03);
+    line-height: 26px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.contact_info > a {
+    text-decoration: none;
+    color: var(--cor-p00);
+}
+
+video { 
+    width: 375px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact_adress {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contact_info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    video {
+        width: 676px;
+        height: auto;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact_lower {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact_lower > div {
+        align-items: left;
+
+    }
+
+    .contact_about {
+        text-align: left;
+        padding-right: 16px;
+    }
+
+    .contact_adress {  
+        text-align: left;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
+
+    .contact_info {
+       text-align: left;
+       padding-top: 15px;
+       padding-right: 2px;
+    }
+
+    video {
+        width: 375px;
+        padding-left: 150px;
+    }
+}

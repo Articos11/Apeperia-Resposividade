@@ -1,0 +1,54 @@
+@import './global.css';
+/* Para váriaveis utilizadas, favor consultar o CSS acima. */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-t03);
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.list_2 {
+    display: flex;
+}
+
+.socials {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 2rem 1rem;
+}
+
+.list_3 {
+    color: var(--cor00);
+    text-align: center;
+    line-height: 3;
+}
+
+.footer_link {
+    display: inline-block;
+    margin: 0 0.5rem 0.7rem;
+}
+
+.footer_link > a {
+    color: inherit;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+
+    .list_3 {
+        text-align: left;
+        min-width: 600px;
+    }
+}

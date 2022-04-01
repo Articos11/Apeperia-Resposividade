@@ -1,0 +1,413 @@
+@import './global.css';
+/* Para as variáveis usadas, favor consultar o CSS acima. */
+
+.plans_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor04);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.plan_title {
+    font-family: var(--title-text);
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--cor03);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.plan_start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor00);
+    width: 300px;
+    height: 304px;
+    border-radius: 5px;
+}
+
+.start_title { 
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    font-size: 19px;
+    color: var(--cor-p00);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inner_line {
+    border: 1px solid var(--cor01);
+    width: 100%;
+}
+
+.start_value {
+    font-family: var(--text-font);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-p00);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.start_text_upper {
+    position: relative;
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    right: 35px;
+    padding-bottom: 5px;
+}
+
+.start_text_middle {
+    position: relative;
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    right: 80px;
+    padding-bottom: 5px;
+}
+
+.start_text_bottom {
+    position: relative;
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    right: 42px;
+    padding-bottom: 15px;
+}
+
+.plan_start_button {
+    background: none;
+    border: 1px solid var(--cor-p00);
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    color: var(--cor-p00);
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.plan_ultra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor00);
+    width: 300px;
+    height: 304px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.ultra_title {
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    font-size: 19px;
+    color: var(--cor-p01);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ultra_value {
+    font-family: var(--text-font);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-p01);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.ultra_text_upper {
+    position: relative;
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    right: 27px;
+    padding-bottom: 5px;
+}
+
+.ultra_text_middle {
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    right: 71px;
+    padding-bottom: 5px;
+}
+
+.ultra_text_bottom {
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    right: 29px;
+    padding-bottom: 5px;
+}
+
+.ultra_text_lower {
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    right: 38px;
+    padding-bottom: 15px;
+}
+
+.plan_ultra_button {
+    background: none;
+    border: 1px solid var(--cor-p01);
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    color: var(--cor-p01);
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.plan_mega {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor00);
+    width: 300px;
+    height: 304px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.mega_title {
+    font-family: var(--text-font);
+    text-transform: capitalize;
+    font-size: 19px;
+    color: var(--cor-p02);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mega_value {
+    font-family: var(--text-font);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-p02);
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.mega_text_upper { 
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    position: relative;
+    right: 20px;
+}
+
+.mega_text_middle {
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    position: relative;
+    right: 67px;
+}
+
+.mega_text_bottom {
+    color: var(--cor-t01);
+    font-family: var(--text-font);
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    position: relative;
+    right: 24px;
+    padding-bottom: 15px;
+}
+
+.plan_mega_button {
+    background: none;
+    border: 1px solid var(--cor-p02);
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    color: var(--cor-p02);
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .plan_start {
+        width: 400px;
+        height: 304px;
+    }
+
+    .plan_ultra {
+        width: 400px;
+        height: 304px;
+    }
+
+    .plan_mega {
+        width: 400px;
+        height: 304px;
+        padding-bottom: 25px;
+    }
+
+    .start_text_upper {
+        font-size: 15px;
+        right: 35px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .start_text_middle {
+        font-size: 15px;
+        right: 90px;
+        padding-bottom: 5px;
+    }
+    
+    .start_text_bottom {
+        font-size: 15px;
+        right: 42px;
+        padding-bottom: 30px;
+    }
+
+    .plan_start_button {
+        width: 280px;
+        height: 45px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .ultra_text_upper {
+        font-size: 15px;
+        right: 27px;
+        padding-bottom: 5px;
+    }
+    
+    .ultra_text_middle {
+        font-size: 15px;
+        right: 85px;
+        padding-bottom: 5px;
+    }
+    
+    .ultra_text_bottom {
+        font-size: 15px;
+        right: 32px;
+        padding-bottom: 5px;
+    }
+    
+    .ultra_text_lower {
+        font-size: 15px;
+        right: 45px;
+        padding-bottom: 15px;
+    }
+    
+    .plan_ultra_button {
+        width: 280px;
+    }
+
+    .mega_text_upper { 
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 5px;
+        position: relative;
+        right: 20px;
+    }
+    
+    .mega_text_middle {
+        color: var(--cor-t01);
+        font-family: var(--text-font);
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 5px;
+        position: relative;
+        right: 78px;
+    }
+    
+    .mega_text_bottom {
+        color: var(--cor-t01);
+        font-family: var(--text-font);
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 5px;
+        position: relative;
+        right: 24px;
+        padding-bottom: 20px;
+    }
+    
+    .plan_mega_button {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px)  {
+    .plans_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        height: 400px;
+    }
+    
+    .plan_title {
+        position: relative;
+        top: 260px;
+        padding-bottom: 40px;
+    }
+
+    .plan_start {
+        width: 300px;
+        position: relative;
+        right: 328px;
+        top: 279px;
+        padding-bottom: 20px;
+    }
+
+    .plan_ultra {
+        width: 300px;
+        position: relative;
+        bottom: 50px;
+        left: 0px;
+        margin-top: 0px;
+        padding-bottom: 22px;
+    }
+
+    .plan_mega {
+        width: 300px;
+        position: relative;
+        bottom: 323px;
+        left: 327px;
+        margin-top: 0px;
+    }
+
+    .plan_start_button:hover {
+        cursor: pointer;
+        background-color: var(--cor04);
+    }
+    
+    .plan_mega_button:hover {
+        cursor: pointer;
+        background-color: var(--cor04);
+    }
+
+    .plan_ultra_button:hover {  
+        cursor: pointer;
+        background-color: var(--cor04);
+    }
+}
